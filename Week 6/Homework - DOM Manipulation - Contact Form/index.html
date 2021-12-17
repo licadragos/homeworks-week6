@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Homework DOM Manipulation Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="error"></div>
+            <form id="form" action="/">
+                <input focused type="text" placeholder="First Name" id="first">
+                <input type="text" placeholder="Last Name" id="second">
+                <label id="gender1" for="gender">Gender</label>
+                <div class="option">
+                    <input type="radio" id="check1" name="radio">
+                    <label for="check1">M</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="check2" name="radio">
+                    <label for="check2">F</label>
+                </div>
+                <textarea name="" id="third" cols="30" rows="7">Your message here...</textarea>
+                <input type="submit" value="Submit" id="button">
+            </form>
+            <div class="two">
+                <img src="img4.png" height="337px">
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+    </body>
+</html>
